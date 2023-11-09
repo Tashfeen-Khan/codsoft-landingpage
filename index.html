@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Responsive Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">CodeSoft</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#client">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <hero class="hero" id="home">
+      <div class="hero__container">
+        <div class="content">
+          <p class="subtitle">Level 1 Task</p>
+          <h1 class="title"> <span>Landing page</span> </h1>
+          <p class="description">
+            This is the task assigned by code soft company. codesoft offering
+            one month internship program on different fields. this is the first
+            task of level one. It is a landing page wich is consist of HTML &
+            CSS technologies in this we use Grid, coloums ,image ,flexbox etc
+          </p>
+          <div class="action__btns">
+            <button class="hire__me">View Code</button>
+            <button class="portfolio">Next Project</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/profile.jpg" alt="profile" />
+        </div>
+      </div>
+    </hero>
+    <!-- story start -->
+    <section class="story" id="about">
+      <div class="section__container story__container">
+        <div class="story__image">
+          <img src="assets/mosco.jpg" alt="story" />
+        </div>
+        <div class="story__content">
+          <p class="section__subheader">A story about an Internship</p>
+          <h2 class="section__header">CodeSoft Internship Program </h2>
+          <p class="title">
+            <span><i class="ri-calendar-2-fill"></i> Otc-20-2023</span>
+            <span><i class="ri-calendar-2-fill"></i> Nov-20-2023</span>
+          </p>
+          <p class="description">
+            CodeSoft Company is a dynamic and forward-thinking organization that
+            is committed to nurturing talent and providing invaluable real-world
+            experiences. Through our internship programs, we offer a unique
+            opportunity for students and recent graduates to gain hands-on
+            experience and develop their skills in a professional setting. Our
+            internships are designed to be educational and engaging, providing
+            participants with exposure to diverse projects and mentorship from
+            experienced professionals. We understand the importance of investing
+            in the next generation of talent and strive to make our internships
+            a meaningful stepping stone towards a successful career. Join us at
+            ABC Company, where you can grow, learn, and contribute to exciting
+            projects while building a foundation for your future.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+    <!-- story end  -->
+    <!-- haring section  -->
+    <section class="section__container price__container" id="resume">
+      <p class="section__subheader">Harring</p>
+      <h2 class="section__header"> Apply on your field programme </h2>
+      <div class="price__grid">
+        <div class="price__card">
+          <img src="assets/web.jpeg" alt="price" />
+          <div class="details">
+            <span>Total Sets</span>
+            <span>1500</span>
+          </div>
+          <h4>Hurry Up Limited Sets </h4>
+          <div class="price__card__footer">
+            <span class="location">
+              <i class="ri-map-pin-2-fill"></i> Morocco
+            </span>
+            <span class="rating"><i class="ri-star-fill"></i> 5.0</span>
+          </div>
+        </div>
+        <div class="price__card">
+          <img src="assets/java.jpeg" alt="price" />
+          <div class="details">
+            <span>Total Sets</span>
+            <span>1500</span> </div
+          ><h4>Hurry Up Limited Sets </h4>
+          <div class="price__card__footer">
+            <span class="location">
+              <i class="ri-map-pin-2-fill"></i> Singapore
+            </span>
+            <span class="rating"><i class="ri-star-fill"></i> 4.8</span>
+          </div>
+        </div>
+        <div class="price__card">
+          <img src="assets/python.png" alt="price" />
+          <div class="details">
+            <span>Total Sets</span>
+            <span>1500</span> </div
+          ><h4>Hurry Up Limited Sets </h4>
+          <div class="price__card__footer">
+            <span class="location">
+              <i class="ri-map-pin-2-fill"></i> Switzerland
+            </span>
+            <span class="rating"><i class="ri-star-fill"></i> 4.6</span>
+          </div>
+        </div>
+        <div class="price__card">
+          <img src="assets/anroid.png" alt="price" />
+          <div class="details">
+            <span>Total Sets</span>
+            <span>1500</span> </div
+          ><h4>Hurry Up Limited Sets </h4>
+          <div class="price__card__footer">
+            <span class="location">
+              <i class="ri-map-pin-2-fill"></i> Paris
+            </span>
+            <span class="rating"><i class="ri-star-fill"></i> 4.9</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- harring start  -->
+    <section class="client" id="client">
+      <div class="section__container client__container">
+        <p class="section__subheader">Instructors</p>
+        <h2 class="section__header">Best experienced instructors</h2>
+        <div class="client__grid">
+          <div class="client__card">
+            <img src="assets/client-1.jpg" alt="client" />
+            <h4>Mr's Thomas</h4>
+            <p>
+              Web Instructor teach us htms Css & JavaSript From strat to
+              advance.
+            </p>
+            <!-- <span><i class="ri-double-quotes-l"></i></span> -->
+          </div>
+          <div class="client__card">
+            <img src="assets/client-2.jpg" alt="client" />
+            <h4>Ms Crotty</h4>
+            <p> Teach us App development whith unique concepts </p>
+            <!-- <span><i class="ri-double-quotes-l"></i></span> -->
+          </div>
+          <div class="client__card">
+            <img src="assets/client-3.jpg" alt="client" />
+            <h4>Mr Calvin </h4>
+            <p>
+              He is experienced paythine developer expert in eathical hacking.
+            </p>
+            <!-- <span><i class="ri-double-quotes-l"></i></span> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contect start -->
+    <section class="section__container contact__container" id="contact">
+      <p class="section__subheader">Contact us</p>
+      <h2 class="section__header">Join Now it is free internship</h2>
+      <form>
+        <input type="text" placeholder="Full Name" />
+        <input type="text" placeholder="Phone Number" />
+        <input type="text" placeholder="Country" />
+        <input type="text" placeholder="Ask us anything" />
+        <button class="btn">Send Query</button>
+      </form>
+    </section>
+    <!-- contect end  -->
+    <!-- banner start  -->
+
+    <!-- footer start  -->
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h4>About Us</h4>
+          <p>
+            GTravel is your trusted travel agent specializing in booking
+            packages around the world. We provide exceptional service to cater
+            to your travel needs and preferences.<br /><br />Book your next
+            adventure with us and embark on a transformative journey that will
+            create cherished memories for a lifetime.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Travel Info</h4>
+          <p>Menu</p>
+          <p>Travel Guides</p>
+          <p>Plans</p>
+          <p>About Us</p>
+          <p>Contact Us</p>
+        </div>
+        <div class="footer__col">
+          <h4>Information</h4>
+          <p>Gift Cards</p>
+          <p>Find a Package</p>
+          <p>Discounts</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        <p>Copyright © 2023 Web Design Mastery. All rights reserved.</p>
+        <div class="socials">
+          <span><i class="ri-facebook-fill"></i></span>
+          <span><i class="ri-twitter-fill"></i></span>
+          <span><i class="ri-linkedin-box-fill"></i></span>
+          <span><i class="ri-pinterest-line"></i></span>
+          <span><i class="ri-youtube-fill"></i></span>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end  -->
+  </body>
+</html>
